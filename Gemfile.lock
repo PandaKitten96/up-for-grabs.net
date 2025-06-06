@@ -27,7 +27,7 @@ GEM
     addressable (2.8.7)
       public_suffix (>= 2.0.2, < 7.0)
     ast (2.4.2)
-    base64 (0.2.0)
+    base64 (0.3.0)
     bigdecimal (3.1.8)
     colorator (1.1.0)
     concurrent-ruby (1.3.4)
@@ -54,7 +54,7 @@ GEM
     ffi (1.17.0-x86_64-darwin)
     ffi (1.17.0-x86_64-linux-gnu)
     ffi (1.17.0-x86_64-linux-musl)
-    fiber-storage (1.0.0)
+    fiber-storage (1.0.1)
     forwardable-extended (2.6.0)
     google-protobuf (4.28.2)
       bigdecimal
@@ -74,7 +74,7 @@ GEM
     google-protobuf (4.28.2-x86_64-linux)
       bigdecimal
       rake (>= 13)
-    graphql (2.3.19)
+    graphql (2.3.21)
       base64
       fiber-storage
     graphql-client (0.23.0)
@@ -212,7 +212,7 @@ GEM
     tzinfo (2.0.6)
       concurrent-ruby (~> 1.0)
     unicode-display_width (2.6.0)
-    uri (0.13.1)
+    uri (0.13.2)
     webrick (1.8.2)
 
 PLATFORMS
@@ -245,7 +245,7 @@ PLATFORMS
   x86_64-linux-musl
 
 DEPENDENCIES
-  graphql (~> 2.3.19)
+  graphql (~> 2.3.21)
   graphql-client
   jekyll
   json_schemer
